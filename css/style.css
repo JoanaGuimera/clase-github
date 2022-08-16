@@ -1,6 +1,25 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
+}
+
+h1 {
+    color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.hola-mundo {
+    background-color: bisque;
+    text-align: center;
+    max-width: 650px;
+    margin: 15px auto;
+}
+
+@media (max-width: 550px) {
+
+.hola-mundo {
+    background-color: blueviolet;
+}
 }
